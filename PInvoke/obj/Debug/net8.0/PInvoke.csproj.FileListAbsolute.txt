@@ -1,0 +1,14 @@
+C:\Users\Vinicius\systems-programming-with-c-\PInvoke\bin\Debug\net8.0\PInvoke.exe
+C:\Users\Vinicius\systems-programming-with-c-\PInvoke\bin\Debug\net8.0\PInvoke.deps.json
+C:\Users\Vinicius\systems-programming-with-c-\PInvoke\bin\Debug\net8.0\PInvoke.runtimeconfig.json
+C:\Users\Vinicius\systems-programming-with-c-\PInvoke\bin\Debug\net8.0\PInvoke.dll
+C:\Users\Vinicius\systems-programming-with-c-\PInvoke\bin\Debug\net8.0\PInvoke.pdb
+C:\Users\Vinicius\systems-programming-with-c-\PInvoke\obj\Debug\net8.0\PInvoke.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Vinicius\systems-programming-with-c-\PInvoke\obj\Debug\net8.0\PInvoke.AssemblyInfoInputs.cache
+C:\Users\Vinicius\systems-programming-with-c-\PInvoke\obj\Debug\net8.0\PInvoke.AssemblyInfo.cs
+C:\Users\Vinicius\systems-programming-with-c-\PInvoke\obj\Debug\net8.0\PInvoke.csproj.CoreCompileInputs.cache
+C:\Users\Vinicius\systems-programming-with-c-\PInvoke\obj\Debug\net8.0\PInvoke.dll
+C:\Users\Vinicius\systems-programming-with-c-\PInvoke\obj\Debug\net8.0\refint\PInvoke.dll
+C:\Users\Vinicius\systems-programming-with-c-\PInvoke\obj\Debug\net8.0\PInvoke.pdb
+C:\Users\Vinicius\systems-programming-with-c-\PInvoke\obj\Debug\net8.0\PInvoke.genruntimeconfig.cache
+C:\Users\Vinicius\systems-programming-with-c-\PInvoke\obj\Debug\net8.0\ref\PInvoke.dll
