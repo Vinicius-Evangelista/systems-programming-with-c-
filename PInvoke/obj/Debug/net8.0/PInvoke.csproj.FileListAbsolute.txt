@@ -12,3 +12,4 @@ C:\Users\Vinicius\systems-programming-with-c-\PInvoke\obj\Debug\net8.0\refint\PI
 C:\Users\Vinicius\systems-programming-with-c-\PInvoke\obj\Debug\net8.0\PInvoke.pdb
 C:\Users\Vinicius\systems-programming-with-c-\PInvoke\obj\Debug\net8.0\PInvoke.genruntimeconfig.cache
 C:\Users\Vinicius\systems-programming-with-c-\PInvoke\obj\Debug\net8.0\ref\PInvoke.dll
+C:\Users\Vinicius\systems-programming-with-c-\PInvoke\obj\Debug\net8.0\PInvoke.sourcelink.json
