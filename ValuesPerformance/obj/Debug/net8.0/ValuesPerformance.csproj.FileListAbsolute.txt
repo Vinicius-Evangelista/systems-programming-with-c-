@@ -1,0 +1,15 @@
+C:\Users\Vinicius\systems-programming-with-c-\ValuesPerformance\bin\Debug\net8.0\ValuesPerformance.exe
+C:\Users\Vinicius\systems-programming-with-c-\ValuesPerformance\bin\Debug\net8.0\ValuesPerformance.deps.json
+C:\Users\Vinicius\systems-programming-with-c-\ValuesPerformance\bin\Debug\net8.0\ValuesPerformance.runtimeconfig.json
+C:\Users\Vinicius\systems-programming-with-c-\ValuesPerformance\bin\Debug\net8.0\ValuesPerformance.dll
+C:\Users\Vinicius\systems-programming-with-c-\ValuesPerformance\bin\Debug\net8.0\ValuesPerformance.pdb
+C:\Users\Vinicius\systems-programming-with-c-\ValuesPerformance\obj\Debug\net8.0\ValuesPerformance.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Vinicius\systems-programming-with-c-\ValuesPerformance\obj\Debug\net8.0\ValuesPerformance.AssemblyInfoInputs.cache
+C:\Users\Vinicius\systems-programming-with-c-\ValuesPerformance\obj\Debug\net8.0\ValuesPerformance.AssemblyInfo.cs
+C:\Users\Vinicius\systems-programming-with-c-\ValuesPerformance\obj\Debug\net8.0\ValuesPerformance.csproj.CoreCompileInputs.cache
+C:\Users\Vinicius\systems-programming-with-c-\ValuesPerformance\obj\Debug\net8.0\ValuesPerformance.sourcelink.json
+C:\Users\Vinicius\systems-programming-with-c-\ValuesPerformance\obj\Debug\net8.0\ValuesPerformance.dll
+C:\Users\Vinicius\systems-programming-with-c-\ValuesPerformance\obj\Debug\net8.0\refint\ValuesPerformance.dll
+C:\Users\Vinicius\systems-programming-with-c-\ValuesPerformance\obj\Debug\net8.0\ValuesPerformance.pdb
+C:\Users\Vinicius\systems-programming-with-c-\ValuesPerformance\obj\Debug\net8.0\ValuesPerformance.genruntimeconfig.cache
+C:\Users\Vinicius\systems-programming-with-c-\ValuesPerformance\obj\Debug\net8.0\ref\ValuesPerformance.dll

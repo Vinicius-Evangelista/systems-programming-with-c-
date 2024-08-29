@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "bpdKtuPFWZ0=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Vinicius\\systems-programming-with-c-\\MemoryGames\\MemoryGames.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Vinicius\\.nuget\\packages\\messagepack\\2.5.172\\messagepack.2.5.172.nupkg.sha512",
+    "C:\\Users\\Vinicius\\.nuget\\packages\\messagepack.annotations\\2.5.172\\messagepack.annotations.2.5.172.nupkg.sha512",
+    "C:\\Users\\Vinicius\\.nuget\\packages\\microsoft.net.stringtools\\17.6.3\\microsoft.net.stringtools.17.6.3.nupkg.sha512"
+  ],
+  "logs": []
+}
