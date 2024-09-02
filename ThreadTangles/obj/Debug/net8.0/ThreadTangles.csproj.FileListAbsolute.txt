@@ -1,0 +1,15 @@
+C:\Users\Vinicius\systems-programming-with-c-\ThreadTangles\bin\Debug\net8.0\ThreadTangles.exe
+C:\Users\Vinicius\systems-programming-with-c-\ThreadTangles\bin\Debug\net8.0\ThreadTangles.deps.json
+C:\Users\Vinicius\systems-programming-with-c-\ThreadTangles\bin\Debug\net8.0\ThreadTangles.runtimeconfig.json
+C:\Users\Vinicius\systems-programming-with-c-\ThreadTangles\bin\Debug\net8.0\ThreadTangles.dll
+C:\Users\Vinicius\systems-programming-with-c-\ThreadTangles\bin\Debug\net8.0\ThreadTangles.pdb
+C:\Users\Vinicius\systems-programming-with-c-\ThreadTangles\obj\Debug\net8.0\ThreadTangles.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Vinicius\systems-programming-with-c-\ThreadTangles\obj\Debug\net8.0\ThreadTangles.AssemblyInfoInputs.cache
+C:\Users\Vinicius\systems-programming-with-c-\ThreadTangles\obj\Debug\net8.0\ThreadTangles.AssemblyInfo.cs
+C:\Users\Vinicius\systems-programming-with-c-\ThreadTangles\obj\Debug\net8.0\ThreadTangles.csproj.CoreCompileInputs.cache
+C:\Users\Vinicius\systems-programming-with-c-\ThreadTangles\obj\Debug\net8.0\ThreadTangles.sourcelink.json
+C:\Users\Vinicius\systems-programming-with-c-\ThreadTangles\obj\Debug\net8.0\ThreadTangles.dll
+C:\Users\Vinicius\systems-programming-with-c-\ThreadTangles\obj\Debug\net8.0\refint\ThreadTangles.dll
+C:\Users\Vinicius\systems-programming-with-c-\ThreadTangles\obj\Debug\net8.0\ThreadTangles.pdb
+C:\Users\Vinicius\systems-programming-with-c-\ThreadTangles\obj\Debug\net8.0\ThreadTangles.genruntimeconfig.cache
+C:\Users\Vinicius\systems-programming-with-c-\ThreadTangles\obj\Debug\net8.0\ref\ThreadTangles.dll
