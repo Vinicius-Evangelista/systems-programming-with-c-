@@ -1,4 +1,5 @@
-﻿using System.Runtime.InteropServices;
+﻿using System.Collections.Concurrent;
+using System.Runtime.InteropServices;
 using ExtensionLibrary;
 
 
@@ -104,7 +105,98 @@ static async Task DoWork2()
     await Task.Delay(1000);
 }
 
+Console.WriteLine("------------- Concurrent Collections -------------");
+// var allLines = new List<string>();
+// for(int i = 0; i < 1000; i++)
+// {
+//     allLines.Add($"Line {i:000}");
+// }
+// ThreadPool.QueueUserWorkItem((_) =>
+// {
+//     Thread.Sleep(1000);
+//     allLines.Clear();
+// });
+// await DumpArray(allLines);
+// "Main app is done.\nPress any key to stop.".Dump(ConsoleColor.White);
+// Console.ReadKey();
+// return 0;
+// async Task DumpArray(List<string> someData)
+// {
+//     foreach(var data in someData)
+//     {
+//         data.Dump(ConsoleColor.Yellow);
+//         await Task.Delay(100);
+//     }
+// }
+//
 
+Console.WriteLine("------------- Blocking Collection --------------");
+// We have a collection that blocks as soon as
+// 5 items have been added. Before this thread
+// can continue, one has to be taken away first.
+var allLines2 = new BlockingCollection<string>(boundedCapacity:5);
+ThreadPool.QueueUserWorkItem((_) => {
+    for (int i = 0; i < 10; i++)
+    {
+        allLines2.Add($"Line {i:000}");
+        Thread.Sleep(1000);
+    }
+    allLines2.CompleteAdding();
+});
+// Give the first thread some time to add items before
+// we take them away again.
+Thread.Sleep(6000);
+// Read all items by taking them away
+ThreadPool.QueueUserWorkItem((_) => {
+    while (!allLines2.IsCompleted)
+    {
+        try
+        {
+            var item = allLines2.Take();
+            item.Dump(ConsoleColor.Yellow);
+            Thread.Sleep(10);
+        }
+        catch (InvalidOperationException)
+        {
+            // This can happen if
+            // CompleteAdding has been called
+            // but the collection is already empty
+            // in our case: this thread finished before the
+            // first one
+        }
+    }
+});
+"Main app is done.\nPress any key to stop.".Dump(ConsoleColor.White);
+Console.ReadKey();
+
+
+
+
+Console.WriteLine("------------- Thread Safe Techiniques -------------");
+int iterationCount = 100;
+ThreadPool.QueueUserWorkItem(async (state) =>
+{
+    await Task.Delay(500);
+    iterationCount = 0;
+    $"We are stopping it...".Dump(ConsoleColor.Red);
+});
+await WaitAWhile();
+$"In the main part of the app.".Dump(ConsoleColor.White);
+"Main app is done.\nPress any key to stop.".Dump(ConsoleColor.White);
+Console.ReadKey();
+return 0;
+async Task WaitAWhile()
+{
+    do
+    {
+        $"In the loop at iterations {iterationCount}".            Dump(ConsoleColor.Yellow);
+        await Task.Delay(1);
+    }while (--iterationCount > 0) ;
+}
+
+// Value types are thread safe because they are passed by value, so it's a copy
+// Reference Types aren't thread safe because they are passed by reference, so any thread can change it
+// we have the lock statement, that allows only one thread execute some piece of code
 
 [DllImport("kernel32.dll", SetLastError = true)]
 static extern IntPtr CreateThread(

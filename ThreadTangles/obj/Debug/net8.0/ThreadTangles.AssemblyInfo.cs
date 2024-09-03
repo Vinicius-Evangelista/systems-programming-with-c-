@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ThreadTangles")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e14638c26953975f6e244c9f38412031401a50fa")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+795404e053911cb98e8f430519110a3d3e5c2e88")]
 [assembly: System.Reflection.AssemblyProductAttribute("ThreadTangles")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ThreadTangles")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

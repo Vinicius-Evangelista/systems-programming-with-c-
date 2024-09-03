@@ -11,6 +11,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ThreadTangles", "ThreadTang
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ValuesPerformance", "ValuesPerformance\ValuesPerformance.csproj", "{921A7C20-7FA8-48AD-B0FA-3FC3E3A00237}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BasicIO", "BasicIO\BasicIO.csproj", "{E490B79E-5253-4119-877D-8937AECA42F3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{921A7C20-7FA8-48AD-B0FA-3FC3E3A00237}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{921A7C20-7FA8-48AD-B0FA-3FC3E3A00237}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{921A7C20-7FA8-48AD-B0FA-3FC3E3A00237}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E490B79E-5253-4119-877D-8937AECA42F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E490B79E-5253-4119-877D-8937AECA42F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E490B79E-5253-4119-877D-8937AECA42F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E490B79E-5253-4119-877D-8937AECA42F3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
